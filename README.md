@@ -10,4 +10,5 @@ Anonymous (2025). Exploring Layer-wise Representations of English and Chinese Ho
   - results/      # storing the statistical results
   - scripts/      # storing the scripts for statistical analyses
  
-`analysis_homonymy.Rmd` - script to generate all the statistical analyses, tables and figures.
+`analysis_homonymy.Rmd`
+- script to generate all the statistical analyses, tables and figures.
