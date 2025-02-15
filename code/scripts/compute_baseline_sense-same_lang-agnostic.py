@@ -18,7 +18,7 @@ import pandas as pd
 import sys
 dir_wd = ""
 sys.path.append(dir_wd)
-from utils import compute_sent_hidden_states, compute_baseline_en, compute_baseline_zh
+from code.scripts.utils import compute_sent_hidden_states, compute_baseline_en, compute_baseline_zh
 import click
 from itertools import combinations
 

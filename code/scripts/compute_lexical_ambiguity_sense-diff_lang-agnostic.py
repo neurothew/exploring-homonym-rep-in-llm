@@ -16,7 +16,7 @@ dir_wd = ""
 sys.path.append(dir_wd)
 dir_results = os.path.join(dir_wd, "results", "lexical_v20250118")
 
-from utils import compute_word_cossim
+from code.scripts.utils import compute_word_cossim
 from huggingface_hub import login
 huggingface_token = ""
 login(token=huggingface_token)

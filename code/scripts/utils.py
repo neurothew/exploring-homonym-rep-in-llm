@@ -992,7 +992,7 @@ def compute_word_cossim(this_model, this_tokenizer, lists_sent, target_word, lan
     df_cos_sim["angle"] = np.arccos(df_cos_sim["cos_sim"]) * 180 / np.pi
     return(df_cos_sim)
 
-from utils import get_list_words, get_idx_word_id, gen_all_pair_idx_list
+from code.scripts.utils import get_list_words, get_idx_word_id, gen_all_pair_idx_list
 def get_word_in_token_idx(this_tokenizer, this_sent, target_word):
     """
     Return the array of token indices that correspond to the target word within the provided sentence.
