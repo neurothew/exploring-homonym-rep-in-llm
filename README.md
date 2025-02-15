@@ -24,6 +24,7 @@ statistics/
     └── analysis_homonymy.Rmd
 ```
 
+## Description
 `df_homonymy_v20251117.xlsx`
 - The dataframe storing all the homonyms and sentences.
 
@@ -32,7 +33,7 @@ statistics/
 
 `run_compute_lexical_ambiguity_v20251019.sh`
 - The shell script to compute angular similarity between homonyms.
-=
+
 `analysis_homonymy.Rmd`
 - script to generate all the statistical analyses, tables and figures.
 
