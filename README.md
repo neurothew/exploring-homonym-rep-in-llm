@@ -6,10 +6,15 @@ Anonymous (2025). Exploring Layer-wise Representations of English and Chinese Ho
 ## Folder structure
 
 ```
+code/
+├── data/                        # data for computation analyses
+│   └── df_homonymy_v20251117.xlsx                 
+├── scripts/                     # scripts for computing homonym representations                  
+│   ├── run_compute_lexical_ambiguity_v20251019.sh
+│   ├── run_compute_homonym_baseline_v20251018.sh
 statistics/                    
-├── data/                        # data for computation and analyses
-│   ├── df_sim_byword_preprocessed.feather                  
-│   └── df_homonymy_v20251117.xlsx              
+├── data/                        # data for statistical analyses                  
+│   └── df_sim_byword_preprocessed.feather                    
 ├── figures/                     # storing the figures on manuscript
 ├── results/                  
 │   ├── df_en_model_diff_on_best_dscores.csv
@@ -22,6 +27,12 @@ statistics/
 `df_homonymy_v20251117.xlsx`
 - The dataframe storing all the homonyms and sentences.
 
+`run_compute_homonym_baseline_v20251018.sh`
+- The shell script to compute angular similarity baseline
+
+`run_compute_lexical_ambiguity_v20251019.sh`
+- The shell script to compute angular similarity between homonyms.
+=
 `analysis_homonymy.Rmd`
 - script to generate all the statistical analyses, tables and figures.
 
