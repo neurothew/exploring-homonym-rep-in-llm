@@ -1,7 +1,7 @@
 # exploring-homonym-representations-in-llm
-This repository is the official implementation of the following paper (accepted to ACL2025 findings):
+This repository is the official implementation of the following paper:
 
-Matthew King-Hang Ma*, Chenwei Xie*, Wenbo Wang, William Shiyaun Wang (2025). Exploring Layer-wise Representations of English and Chinese Homonymy in Pre-trained Language Models.
+Matthew King-Hang Ma*, Xie Chenwei*, Wenbo Wang, and William Shiyuan Wang. 2025. Exploring Layer-wise Representations of English and Chinese Homonymy in Pre-trained Language Models. In Findings of the Association for Computational Linguistics: ACL 2025, pages 19705–19724, Vienna, Austria. Association for Computational Linguistics.
 
 ## Folder structure
 
